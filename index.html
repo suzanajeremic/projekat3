@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+
+    <link rel="stylesheet" href="projekat3.css">
+    <title>facebook</title>
+</head>
+
+<body>
+    <header>
+    <h2>FACEBOOK</h2>
+    <div id="logovanje">
+        <label for="email" id="logE">Email</label>
+        <input type="text" id="gmail">
+        
+        <label for="password" id="logP">Password</label>
+        <input type="password" id="pass1">
+        
+        <input type="button" value="Uloguj se" id="signBtn">
+        <div id="greska1"></div>
+        <div id="greska2"></div>
+    </div>
+</header>
+    <section id="registracija">
+    <h3>Registracija korisnika</h3>
+   
+        <form id="regForma">
+            <input type="text" id="ime" placeholder="Ime">
+            <div id="greska3"></div>
+            <input type="text" id="pre" placeholder="Prezime"><br>
+            <div id="greska4"></div>
+            <input type="text" id="tel" placeholder="+381-66-66-66-123"><br>
+            <div id="greska5"></div>
+            <input type="text" id="email" placeholder="Email"><br>
+            <div id="greska6"></div>
+            <input type="password" id="pasvord" placeholder="Password"><br>
+            <div id="greska7"></div><br>
+            <h4> Datum rodjenja</h4>
+            <input type="date" id="datum">
+            <div id="greska9"></div><br><br>
+            <label for="female" id="logF">Female</label>
+            <input type="radio" name="polovi" value="Female" id="pol1">
+            <label for="male" id="logM">Male</label>
+            <input type="radio" name="polovi" value="Male" id="pol2">
+            <div id="greska10"></div><br><br>
+            <input type="button" value="Registruj se" id="regBtn">
+
+        </form>
+    
+</section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="projekat3.js"></script>
+
+</body>
+
+</html>
