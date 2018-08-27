@@ -1,0 +1,176 @@
+body {
+    width: 800px;
+    margin: auto;
+    background-color: rgba(204, 222, 233, 0.164);
+   
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left: 150px;
+   color: rgb(0, 33, 59);
+}
+h3, h4 {
+   
+   color: rgb(27, 87, 133);
+}
+#logE, #logP, #logF, #logM{
+    color: rgb(73, 125, 165);
+}
+
+#ime, #pre, #tel, #email, #pasvord {
+    margin: 5px 5px 5px 0;
+    width: 200px;
+}
+
+ 
+#greska3, #greska4, #greska5, #greska6, #greska7, #greska8, #greska9, #greska10, #greska1, #greska2{
+    color: red;
+}
+#pozdrav{
+    color: rgb(0, 50, 88);
+}
+
+
+#i, #p, #d {
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(2, 49, 85);
+}
+.naziv {
+    font-style: oblique;
+    color: rgb(73, 125, 165);
+}
+.naziv1 {
+    font-style: oblique;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#informacije{
+    float: left;
+}
+
+#postovi {
+    
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 50%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(56, 74, 155);
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 16px;
+    resize: none;
+
+    
+    
+
+}
+
+input[type=file]{
+    width:90px;
+    color:transparent;
+    
+}
+
+ul{
+
+margin-left: 150px;
+
+
+}
+ li {
+    position: relative;
+    list-style-type: none;
+    background: #eee;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid rgb(141, 159, 209);
+    margin: 0 15px 0 40px;
+    width: 600px;
+    box-sizing: border-box;
+    min-height: 30px;
+    padding: 4px 42px 4px 10px;
+    color: rgb(0, 30, 87);
+    border-radius: 5px;
+}
+
+  #registracija{
+    margin-top: 50px;
+    margin-left: 120px;
+
+  }
+  header{
+    margin-left: 60px;
+  }
+  #slikaPost{
+      padding-right: 10px;
+   
+  }
+
+  span{
+    position: absolute;
+    word-break: break-all;
+    padding-right: 10px;
+   
+  }
+  #dugme {
+   
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(21, 53, 122);
+  }
+  #signBtn{
+    background-color: rgb(112, 164, 233); /* Green */
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ 
+  }
+  
+  #regBtn{
+ 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(18, 41, 105);
+  }
+
+  #odjava{
+      margin-left: 880px;
+      margin-top: 10px;
+      border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    cursor: pointer;
+    background-color: rgb(192, 10, 10);
+    
+  }
+  
+  
