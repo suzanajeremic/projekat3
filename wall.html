@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wall</title>
+    <link rel="stylesheet" href="projekat3.css">
+
+    <input type="button" value="Log OUT" id="odjava">
+
+</head>
+
+<body>
+
+
+    <section id="informacije">
+        <h1 id="pozdrav"></h1>
+        <img src="" height="150" id="imgProf">
+        <br>
+        <input type="file" id="sl" onchange="postaviSliku()" accept=".jpg">
+        <br>
+        <br>
+        <label class="naziv">Ime:</label>
+        <div id="i"></div>
+        <br>
+        <label class="naziv">Prezime:</label>
+        <div id="p"></div>
+        <br>
+        <label class="naziv">Datum rodjenja:</label>
+        <div id="d"></div>
+        <br>
+    </section>
+
+
+    <section id="post">
+        <br>
+        <br>
+        <br>
+        <br>
+        <label class="naziv1">Dodaj novi post</label>
+        <br>
+        <input type="text" id="postovi" size="50">
+        <input type="button" id="dugme" value="Dodaj post">
+      
+        <ul id="lista">
+        </ul>
+       
+       
+
+
+
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="projekat3.js"></script>
+</body>
+
+</html>
